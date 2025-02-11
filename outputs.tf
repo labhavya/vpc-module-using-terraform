@@ -9,4 +9,10 @@
  
  }
  
- */
+
+
+ output "default_vpc_attributes" {
+   value       = data.aws_vpc.default
+  
+ }
+  */

@@ -69,3 +69,7 @@ variable igw_tags {
 variable "is_peering_required" {
   
 }
+
+variable "ssm_param_desc" {
+  
+}
