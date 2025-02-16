@@ -16,3 +16,11 @@
   
  }
   
+
+
+  output subnets_private {
+    value       = aws_subnet.main[*].id
+    
+  }
+  */
+    
