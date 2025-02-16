@@ -21,3 +21,13 @@
     value       = aws_subnet.main[*].id
     
   }
+
+   output subnets_public {
+    value       = aws_subnet.public[*].id
+    
+  }
+
+   output subnets_database {
+    value       = aws_subnet.database[*].id
+    
+  }
